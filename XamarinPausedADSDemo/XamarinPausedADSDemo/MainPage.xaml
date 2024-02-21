@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:videoPlayer="clr-namespace:Octane.Xamarin.Forms.VideoPlayer;assembly=Octane.Xamarin.Forms.VideoPlayer"
+             x:Class="XamarinPausedADSDemo.MainPage"
+             x:Name="Content">
+
+    <StackLayout x:Name="MainLayout">
+        <!-- Place new controls here -->
+        <Label Text="Welcome to Xamarin.Forms!"
+               HorizontalOptions="Center"
+               VerticalOptions="Start"
+               TextColor="Black" />
+
+        <videoPlayer:VideoPlayer Source="https://storage.googleapis.com/gvabox/media/samples/stock.mp4"
+                                 AutoPlay="True"
+                                 DisplayControls="True"
+                                 FillMode="ResizeAspectFill"
+                                 Repeat="False"
+                                 PlayerStateChanged="OnPlayerStateChanged" />
+
+    </StackLayout>
+
+</ContentPage>

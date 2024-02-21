@@ -1,0 +1,13 @@
+/Users/alex/RiderProjects/XamarinPausedADSDemo/XamarinPausedADSDemo/XamarinPausedADSDemo/bin/Debug/netstandard2.0/XamarinPausedADSDemo.deps.json
+/Users/alex/RiderProjects/XamarinPausedADSDemo/XamarinPausedADSDemo/XamarinPausedADSDemo/bin/Debug/netstandard2.0/XamarinPausedADSDemo.dll
+/Users/alex/RiderProjects/XamarinPausedADSDemo/XamarinPausedADSDemo/XamarinPausedADSDemo/bin/Debug/netstandard2.0/XamarinPausedADSDemo.pdb
+/Users/alex/RiderProjects/XamarinPausedADSDemo/XamarinPausedADSDemo/XamarinPausedADSDemo/obj/Debug/netstandard2.0/XamarinPausedADSDemo.csproj.AssemblyReference.cache
+/Users/alex/RiderProjects/XamarinPausedADSDemo/XamarinPausedADSDemo/XamarinPausedADSDemo/obj/Debug/netstandard2.0/XamarinPausedADSDemo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alex/RiderProjects/XamarinPausedADSDemo/XamarinPausedADSDemo/XamarinPausedADSDemo/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/alex/RiderProjects/XamarinPausedADSDemo/XamarinPausedADSDemo/XamarinPausedADSDemo/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/alex/RiderProjects/XamarinPausedADSDemo/XamarinPausedADSDemo/XamarinPausedADSDemo/obj/Debug/netstandard2.0/XamarinPausedADSDemo.AssemblyInfoInputs.cache
+/Users/alex/RiderProjects/XamarinPausedADSDemo/XamarinPausedADSDemo/XamarinPausedADSDemo/obj/Debug/netstandard2.0/XamarinPausedADSDemo.AssemblyInfo.cs
+/Users/alex/RiderProjects/XamarinPausedADSDemo/XamarinPausedADSDemo/XamarinPausedADSDemo/obj/Debug/netstandard2.0/XamarinPausedADSDemo.csproj.CoreCompileInputs.cache
+/Users/alex/RiderProjects/XamarinPausedADSDemo/XamarinPausedADSDemo/XamarinPausedADSDemo/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/alex/RiderProjects/XamarinPausedADSDemo/XamarinPausedADSDemo/XamarinPausedADSDemo/obj/Debug/netstandard2.0/XamarinPausedADSDemo.dll
+/Users/alex/RiderProjects/XamarinPausedADSDemo/XamarinPausedADSDemo/XamarinPausedADSDemo/obj/Debug/netstandard2.0/XamarinPausedADSDemo.pdb

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+        <DebugType>pdbonly</DebugType>
+        <DebugSymbols>true</DebugSymbols>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Octane.Xam.VideoPlayer" Version="3.1.0" />
+        <PackageReference Include="PausedAds" Version="1.0.28" />
+        <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Mono.Android" />
+      <Reference Include="PausedAdsAndroidTV, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\..\..\.nuget\packages\pausedads\1.0.4\lib\MonoAndroid\PausedAdsAndroidTV.dll</HintPath>
+      </Reference>
+      <Reference Include="PausedAdsAndroidTV.Binding, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\..\..\.nuget\packages\pausedads\1.0.3\lib\MonoAndroid\PausedAdsAndroidTV.Binding.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+</Project>

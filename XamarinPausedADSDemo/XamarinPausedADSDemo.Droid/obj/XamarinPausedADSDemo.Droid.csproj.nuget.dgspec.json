@@ -1,0 +1,130 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/alex/RiderProjects/XamarinPausedADSDemo/XamarinPausedADSDemo/XamarinPausedADSDemo.Droid/XamarinPausedADSDemo.Droid.csproj": {}
+  },
+  "projects": {
+    "/Users/alex/RiderProjects/XamarinPausedADSDemo/XamarinPausedADSDemo/XamarinPausedADSDemo.Droid/XamarinPausedADSDemo.Droid.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alex/RiderProjects/XamarinPausedADSDemo/XamarinPausedADSDemo/XamarinPausedADSDemo.Droid/XamarinPausedADSDemo.Droid.csproj",
+        "projectName": "XamarinPausedADSDemo.Droid",
+        "projectPath": "/Users/alex/RiderProjects/XamarinPausedADSDemo/XamarinPausedADSDemo/XamarinPausedADSDemo.Droid/XamarinPausedADSDemo.Droid.csproj",
+        "packagesPath": "/Users/alex/.nuget/packages/",
+        "outputPath": "/Users/alex/RiderProjects/XamarinPausedADSDemo/XamarinPausedADSDemo/XamarinPausedADSDemo.Droid/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/alex/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid12.0"
+        ],
+        "sources": {
+          "/Users/alex/RiderProjects/XamarinAdsLibrary": {},
+          "/Users/alex/TestProjects/Xamarin-SDK": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid12.0": {
+            "projectReferences": {
+              "/Users/alex/RiderProjects/XamarinPausedADSDemo/XamarinPausedADSDemo/XamarinPausedADSDemo/XamarinPausedADSDemo.csproj": {
+                "projectPath": "/Users/alex/RiderProjects/XamarinPausedADSDemo/XamarinPausedADSDemo/XamarinPausedADSDemo/XamarinPausedADSDemo.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid12.0": {
+          "dependencies": {
+            "Octane.Xam.VideoPlayer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "PausedAds": {
+              "target": "Package",
+              "version": "[1.0.28, )"
+            },
+            "Xamarin.Android.Support.Core.UI": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            }
+          }
+        }
+      }
+    },
+    "/Users/alex/RiderProjects/XamarinPausedADSDemo/XamarinPausedADSDemo/XamarinPausedADSDemo/XamarinPausedADSDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alex/RiderProjects/XamarinPausedADSDemo/XamarinPausedADSDemo/XamarinPausedADSDemo/XamarinPausedADSDemo.csproj",
+        "projectName": "XamarinPausedADSDemo",
+        "projectPath": "/Users/alex/RiderProjects/XamarinPausedADSDemo/XamarinPausedADSDemo/XamarinPausedADSDemo/XamarinPausedADSDemo.csproj",
+        "packagesPath": "/Users/alex/.nuget/packages/",
+        "outputPath": "/Users/alex/RiderProjects/XamarinPausedADSDemo/XamarinPausedADSDemo/XamarinPausedADSDemo/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alex/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "/Users/alex/RiderProjects/XamarinAdsLibrary": {},
+          "/Users/alex/TestProjects/Xamarin-SDK": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Octane.Xam.VideoPlayer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "PausedAds": {
+              "target": "Package",
+              "version": "[1.0.28, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
