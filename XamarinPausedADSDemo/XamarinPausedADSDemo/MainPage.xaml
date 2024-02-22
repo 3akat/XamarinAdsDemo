@@ -13,12 +13,14 @@
                VerticalOptions="Start"
                TextColor="Black" />
 
-        <videoPlayer:VideoPlayer Source="https://storage.googleapis.com/gvabox/media/samples/stock.mp4"
+        <videoPlayer:VideoPlayer x:Name="VideoPlayer"
+                                 Source="https://storage.googleapis.com/gvabox/media/samples/stock.mp4"
                                  AutoPlay="True"
                                  DisplayControls="True"
                                  FillMode="ResizeAspectFill"
                                  Repeat="False"
-                                 PlayerStateChanged="OnPlayerStateChanged" />
+                                 PlayerStateChanged="OnPlayerStateChanged"
+        />
 
     </StackLayout>
 

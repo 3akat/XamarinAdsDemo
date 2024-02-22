@@ -23,10 +23,14 @@ namespace XamarinPausedADSDemo {
         private global::Xamarin.Forms.StackLayout MainLayout;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Octane.Xamarin.Forms.VideoPlayer.VideoPlayer VideoPlayer;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainPage));
             Content = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ContentPage>(this, "Content");
             MainLayout = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "MainLayout");
+            VideoPlayer = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Octane.Xamarin.Forms.VideoPlayer.VideoPlayer>(this, "VideoPlayer");
         }
     }
 }
