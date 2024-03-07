@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8sewj1gM5WrrLKeqyLJgBzMR6dbOcWouo9evdsgYpjrGRe1qBLsmpCSMMmOkZLINKpkG9Oy55gmz7rgFIpKjng==",
+  "dgSpecHash": "45IFhgApDmxIeLSX3qVtsZ+qKCnuciO/3MDE7+LVXLwyyiZFkWHrEqeajfXT1hrhBQqPd+fDMqrQczjeahDnaA==",
   "success": true,
   "projectFilePath": "/Users/alex/RiderProjects/XamarinPausedADSDemo/XamarinPausedADSDemo/XamarinPausedADSDemo.Droid/XamarinPausedADSDemo.Droid.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,7 @@
     "/Users/alex/.nuget/packages/naxam.squareup.okhttp3.logginginterceptor/3.11.0/naxam.squareup.okhttp3.logginginterceptor.3.11.0.nupkg.sha512",
     "/Users/alex/.nuget/packages/newtonsoft.json/12.0.2/newtonsoft.json.12.0.2.nupkg.sha512",
     "/Users/alex/.nuget/packages/octane.xam.videoplayer/3.1.0/octane.xam.videoplayer.3.1.0.nupkg.sha512",
-    "/Users/alex/.nuget/packages/pausedads/1.0.28/pausedads.1.0.28.nupkg.sha512",
+    "/Users/alex/.nuget/packages/pausedads/1.0.65/pausedads.1.0.65.nupkg.sha512",
     "/Users/alex/.nuget/packages/square.okhttp3/3.12.6/square.okhttp3.3.12.6.nupkg.sha512",
     "/Users/alex/.nuget/packages/square.okio/1.17.4/square.okio.1.17.4.nupkg.sha512",
     "/Users/alex/.nuget/packages/xam.plugins.android.interactivemedia.ads/3.19.2/xam.plugins.android.interactivemedia.ads.3.19.2.nupkg.sha512",
@@ -134,7 +134,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.AndroidX.Room.Runtime from 2.3.0.6 to 2.3.0. Reference the package directly from the project to select a different version. \n XamarinPausedADSDemo.Droid -> PausedAds 1.0.28 -> Xamarin.AndroidX.Work.Runtime 2.7.1.2 -> Xamarin.AndroidX.Room.Runtime (>= 2.3.0.6) \n XamarinPausedADSDemo.Droid -> PausedAds 1.0.28 -> Xamarin.AndroidX.Room.Runtime (>= 2.3.0)",
+      "message": "Detected package downgrade: Xamarin.AndroidX.Room.Runtime from 2.3.0.6 to 2.3.0. Reference the package directly from the project to select a different version. \n XamarinPausedADSDemo.Droid -> PausedAds 1.0.65 -> Xamarin.AndroidX.Work.Runtime 2.7.1.2 -> Xamarin.AndroidX.Room.Runtime (>= 2.3.0.6) \n XamarinPausedADSDemo.Droid -> PausedAds 1.0.65 -> Xamarin.AndroidX.Room.Runtime (>= 2.3.0)",
       "libraryId": "Xamarin.AndroidX.Room.Runtime",
       "targetGraphs": [
         "MonoAndroid,Version=v12.0"
@@ -144,7 +144,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.AndroidX.Work.Runtime from 2.9.0 to 2.7.1.2. Reference the package directly from the project to select a different version. \n XamarinPausedADSDemo.Droid -> PausedAds 1.0.28 -> Xamarin.GooglePlayServices.Ads 122.3.0.2 -> Xamarin.GooglePlayServices.Ads.Lite 122.3.0.2 -> Xamarin.AndroidX.Work.Runtime (>= 2.9.0) \n XamarinPausedADSDemo.Droid -> PausedAds 1.0.28 -> Xamarin.AndroidX.Work.Runtime (>= 2.7.1.2)",
+      "message": "Detected package downgrade: Xamarin.AndroidX.Work.Runtime from 2.9.0 to 2.7.1.2. Reference the package directly from the project to select a different version. \n XamarinPausedADSDemo.Droid -> PausedAds 1.0.65 -> Xamarin.GooglePlayServices.Ads 122.3.0.2 -> Xamarin.GooglePlayServices.Ads.Lite 122.3.0.2 -> Xamarin.AndroidX.Work.Runtime (>= 2.9.0) \n XamarinPausedADSDemo.Droid -> PausedAds 1.0.65 -> Xamarin.AndroidX.Work.Runtime (>= 2.7.1.2)",
       "libraryId": "Xamarin.AndroidX.Work.Runtime",
       "targetGraphs": [
         "MonoAndroid,Version=v12.0"

@@ -46,7 +46,7 @@
             },
             "PausedAds": {
               "target": "Package",
-              "version": "[1.0.28, )"
+              "version": "[1.0.65, )"
             },
             "Xamarin.Forms": {
               "target": "Package",

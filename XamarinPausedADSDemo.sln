@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinPausedADSDemo.Droid"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinPausedADSDemo.iOS", "XamarinPausedADSDemo\XamarinPausedADSDemo.iOS\XamarinPausedADSDemo.iOS.csproj", "{7933F457-B547-42D7-98BE-ED963BFC4F20}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinPausedADSDemo.TVOS", "XamarinPausedADSDemo.TVOS\XamarinPausedADSDemo.TVOS.csproj", "{CF39DBD4-9829-42D6-B999-5623B59DEDDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|iPhone = Ad-Hoc|iPhone
@@ -82,5 +84,22 @@ Global
 		{7933F457-B547-42D7-98BE-ED963BFC4F20}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{7933F457-B547-42D7-98BE-ED963BFC4F20}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		{7933F457-B547-42D7-98BE-ED963BFC4F20}.Release|iPhoneSimulator.Deploy.0 = Release|iPhoneSimulator
+		{CF39DBD4-9829-42D6-B999-5623B59DEDDA}.Ad-Hoc|iPhone.ActiveCfg = Debug|iPhoneSimulator
+		{CF39DBD4-9829-42D6-B999-5623B59DEDDA}.Ad-Hoc|iPhone.Build.0 = Debug|iPhoneSimulator
+		{CF39DBD4-9829-42D6-B999-5623B59DEDDA}.AppStore|iPhone.ActiveCfg = Debug|iPhoneSimulator
+		{CF39DBD4-9829-42D6-B999-5623B59DEDDA}.AppStore|iPhone.Build.0 = Debug|iPhoneSimulator
+		{CF39DBD4-9829-42D6-B999-5623B59DEDDA}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{CF39DBD4-9829-42D6-B999-5623B59DEDDA}.Debug|iPhone.Build.0 = Debug|iPhone
+		{CF39DBD4-9829-42D6-B999-5623B59DEDDA}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{CF39DBD4-9829-42D6-B999-5623B59DEDDA}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{CF39DBD4-9829-42D6-B999-5623B59DEDDA}.Release|Any CPU.ActiveCfg = Release|iPhone
+		{CF39DBD4-9829-42D6-B999-5623B59DEDDA}.Release|Any CPU.Build.0 = Release|iPhone
+		{CF39DBD4-9829-42D6-B999-5623B59DEDDA}.Release|iPhone.ActiveCfg = Release|iPhone
+		{CF39DBD4-9829-42D6-B999-5623B59DEDDA}.Release|iPhone.Build.0 = Release|iPhone
+		{CF39DBD4-9829-42D6-B999-5623B59DEDDA}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{CF39DBD4-9829-42D6-B999-5623B59DEDDA}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{CF39DBD4-9829-42D6-B999-5623B59DEDDA}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{CF39DBD4-9829-42D6-B999-5623B59DEDDA}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{CF39DBD4-9829-42D6-B999-5623B59DEDDA}.Debug|Any CPU.Deploy.0 = Debug|iPhoneSimulator
 	EndGlobalSection
 EndGlobal

@@ -8,10 +8,14 @@
       "Newtonsoft.Json/12.0.2": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Octane.Xam.VideoPlayer/3.1.0": {
@@ -20,25 +24,37 @@
           "Xamarin.Forms": "4.0.0.497661"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Octane.Xamarin.Forms.VideoPlayer.dll": {},
-          "lib/Xamarin.iOS10/Octane.Xamarin.Forms.VideoPlayer.iOS.dll": {}
+          "lib/Xamarin.iOS10/Octane.Xamarin.Forms.VideoPlayer.dll": {
+            "related": ".iOS.xml;.xml"
+          },
+          "lib/Xamarin.iOS10/Octane.Xamarin.Forms.VideoPlayer.iOS.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Octane.Xamarin.Forms.VideoPlayer.dll": {},
-          "lib/Xamarin.iOS10/Octane.Xamarin.Forms.VideoPlayer.iOS.dll": {}
+          "lib/Xamarin.iOS10/Octane.Xamarin.Forms.VideoPlayer.dll": {
+            "related": ".iOS.xml;.xml"
+          },
+          "lib/Xamarin.iOS10/Octane.Xamarin.Forms.VideoPlayer.iOS.dll": {
+            "related": ".xml"
+          }
         }
       },
-      "PausedAds/1.0.28": {
+      "PausedAds/1.0.65": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "12.0.2",
           "SampleDependency": "1.0.0"
         },
         "compile": {
-          "lib/netstandard2.1/XamarinAdsLibrary.dll": {}
+          "lib/netstandard2.1/XamarinAdsLibrary.dll": {
+            "related": ".pdb"
+          }
         },
         "runtime": {
-          "lib/netstandard2.1/XamarinAdsLibrary.dll": {}
+          "lib/netstandard2.1/XamarinAdsLibrary.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "SampleDependency/1.0.0": {
@@ -50,16 +66,32 @@
       "Xamarin.Forms/5.0.0.2012": {
         "type": "package",
         "compile": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {
+            "related": ".iOS.pdb"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {
+            "related": ".pdb"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {
+            "related": ".iOS.pdb"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {
+            "related": ".pdb"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "resource": {
           "lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll": {
@@ -175,7 +207,7 @@
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "Octane.Xam.VideoPlayer": "3.1.0",
-          "PausedAds": "1.0.28",
+          "PausedAds": "1.0.65",
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
@@ -193,10 +225,14 @@
       "Newtonsoft.Json/12.0.2": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Octane.Xam.VideoPlayer/3.1.0": {
@@ -205,25 +241,37 @@
           "Xamarin.Forms": "4.0.0.497661"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Octane.Xamarin.Forms.VideoPlayer.dll": {},
-          "lib/Xamarin.iOS10/Octane.Xamarin.Forms.VideoPlayer.iOS.dll": {}
+          "lib/Xamarin.iOS10/Octane.Xamarin.Forms.VideoPlayer.dll": {
+            "related": ".iOS.xml;.xml"
+          },
+          "lib/Xamarin.iOS10/Octane.Xamarin.Forms.VideoPlayer.iOS.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Octane.Xamarin.Forms.VideoPlayer.dll": {},
-          "lib/Xamarin.iOS10/Octane.Xamarin.Forms.VideoPlayer.iOS.dll": {}
+          "lib/Xamarin.iOS10/Octane.Xamarin.Forms.VideoPlayer.dll": {
+            "related": ".iOS.xml;.xml"
+          },
+          "lib/Xamarin.iOS10/Octane.Xamarin.Forms.VideoPlayer.iOS.dll": {
+            "related": ".xml"
+          }
         }
       },
-      "PausedAds/1.0.28": {
+      "PausedAds/1.0.65": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "12.0.2",
           "SampleDependency": "1.0.0"
         },
         "compile": {
-          "lib/netstandard2.1/XamarinAdsLibrary.dll": {}
+          "lib/netstandard2.1/XamarinAdsLibrary.dll": {
+            "related": ".pdb"
+          }
         },
         "runtime": {
-          "lib/netstandard2.1/XamarinAdsLibrary.dll": {}
+          "lib/netstandard2.1/XamarinAdsLibrary.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "SampleDependency/1.0.0": {
@@ -235,16 +283,32 @@
       "Xamarin.Forms/5.0.0.2012": {
         "type": "package",
         "compile": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {
+            "related": ".iOS.pdb"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {
+            "related": ".pdb"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {
+            "related": ".iOS.pdb"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {
+            "related": ".pdb"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "resource": {
           "lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll": {
@@ -360,7 +424,7 @@
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "Octane.Xam.VideoPlayer": "3.1.0",
-          "PausedAds": "1.0.28",
+          "PausedAds": "1.0.65",
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
@@ -378,10 +442,14 @@
       "Newtonsoft.Json/12.0.2": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Octane.Xam.VideoPlayer/3.1.0": {
@@ -390,25 +458,37 @@
           "Xamarin.Forms": "4.0.0.497661"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Octane.Xamarin.Forms.VideoPlayer.dll": {},
-          "lib/Xamarin.iOS10/Octane.Xamarin.Forms.VideoPlayer.iOS.dll": {}
+          "lib/Xamarin.iOS10/Octane.Xamarin.Forms.VideoPlayer.dll": {
+            "related": ".iOS.xml;.xml"
+          },
+          "lib/Xamarin.iOS10/Octane.Xamarin.Forms.VideoPlayer.iOS.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Octane.Xamarin.Forms.VideoPlayer.dll": {},
-          "lib/Xamarin.iOS10/Octane.Xamarin.Forms.VideoPlayer.iOS.dll": {}
+          "lib/Xamarin.iOS10/Octane.Xamarin.Forms.VideoPlayer.dll": {
+            "related": ".iOS.xml;.xml"
+          },
+          "lib/Xamarin.iOS10/Octane.Xamarin.Forms.VideoPlayer.iOS.dll": {
+            "related": ".xml"
+          }
         }
       },
-      "PausedAds/1.0.28": {
+      "PausedAds/1.0.65": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "12.0.2",
           "SampleDependency": "1.0.0"
         },
         "compile": {
-          "lib/netstandard2.1/XamarinAdsLibrary.dll": {}
+          "lib/netstandard2.1/XamarinAdsLibrary.dll": {
+            "related": ".pdb"
+          }
         },
         "runtime": {
-          "lib/netstandard2.1/XamarinAdsLibrary.dll": {}
+          "lib/netstandard2.1/XamarinAdsLibrary.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "SampleDependency/1.0.0": {
@@ -420,16 +500,32 @@
       "Xamarin.Forms/5.0.0.2012": {
         "type": "package",
         "compile": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {
+            "related": ".iOS.pdb"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {
+            "related": ".pdb"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {
+            "related": ".iOS.pdb"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {
+            "related": ".pdb"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "resource": {
           "lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll": {
@@ -545,7 +641,7 @@
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "Octane.Xam.VideoPlayer": "3.1.0",
-          "PausedAds": "1.0.28",
+          "PausedAds": "1.0.65",
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
@@ -563,10 +659,14 @@
       "Newtonsoft.Json/12.0.2": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Octane.Xam.VideoPlayer/3.1.0": {
@@ -575,25 +675,37 @@
           "Xamarin.Forms": "4.0.0.497661"
         },
         "compile": {
-          "lib/Xamarin.iOS10/Octane.Xamarin.Forms.VideoPlayer.dll": {},
-          "lib/Xamarin.iOS10/Octane.Xamarin.Forms.VideoPlayer.iOS.dll": {}
+          "lib/Xamarin.iOS10/Octane.Xamarin.Forms.VideoPlayer.dll": {
+            "related": ".iOS.xml;.xml"
+          },
+          "lib/Xamarin.iOS10/Octane.Xamarin.Forms.VideoPlayer.iOS.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Octane.Xamarin.Forms.VideoPlayer.dll": {},
-          "lib/Xamarin.iOS10/Octane.Xamarin.Forms.VideoPlayer.iOS.dll": {}
+          "lib/Xamarin.iOS10/Octane.Xamarin.Forms.VideoPlayer.dll": {
+            "related": ".iOS.xml;.xml"
+          },
+          "lib/Xamarin.iOS10/Octane.Xamarin.Forms.VideoPlayer.iOS.dll": {
+            "related": ".xml"
+          }
         }
       },
-      "PausedAds/1.0.28": {
+      "PausedAds/1.0.65": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "12.0.2",
           "SampleDependency": "1.0.0"
         },
         "compile": {
-          "lib/netstandard2.1/XamarinAdsLibrary.dll": {}
+          "lib/netstandard2.1/XamarinAdsLibrary.dll": {
+            "related": ".pdb"
+          }
         },
         "runtime": {
-          "lib/netstandard2.1/XamarinAdsLibrary.dll": {}
+          "lib/netstandard2.1/XamarinAdsLibrary.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "SampleDependency/1.0.0": {
@@ -605,16 +717,32 @@
       "Xamarin.Forms/5.0.0.2012": {
         "type": "package",
         "compile": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {
+            "related": ".iOS.pdb"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {
+            "related": ".pdb"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {
+            "related": ".iOS.pdb"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {
+            "related": ".pdb"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "resource": {
           "lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll": {
@@ -730,7 +858,7 @@
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "Octane.Xam.VideoPlayer": "3.1.0",
-          "PausedAds": "1.0.28",
+          "PausedAds": "1.0.65",
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
@@ -818,10 +946,10 @@
         "octane.xam.videoplayer.nuspec"
       ]
     },
-    "PausedAds/1.0.28": {
-      "sha512": "xu2ZMftVO/xO3+s0dhiAlrFXwP1Cla2A4WheOnuDcp1QVpVZaiOGwi4zJrbgxz46ISq5+asFAv7ufnW764NOXw==",
+    "PausedAds/1.0.65": {
+      "sha512": "ikgZujv9nDmphyoukySzCdlApckmeugaVjvgLKRxnYsiIXLSMdX/9UVhAp/rijlSSMACZQvZvO8WP1urcYDggg==",
       "type": "package",
-      "path": "pausedads/1.0.28",
+      "path": "pausedads/1.0.65",
       "files": [
         ".nupkg.metadata",
         "lib/MonoAndroid/PausedAdsAndroidTV.Binding.dll",
@@ -832,7 +960,13 @@
         "lib/MonoAndroid/XamarinAdsLibrary.pdb",
         "lib/netstandard2.1/XamarinAdsLibrary.dll",
         "lib/netstandard2.1/XamarinAdsLibrary.pdb",
-        "pausedads.1.0.28.nupkg.sha512",
+        "lib/xamarintvos/PausedAdsTvOS.Binding.dll",
+        "lib/xamarintvos/PausedAdsTvOS.Binding.pdb",
+        "lib/xamarintvos/PausedAdsTvOS.dll",
+        "lib/xamarintvos/PausedAdsTvOS.pdb",
+        "lib/xamarintvos/XamarinAdsLibrary.dll",
+        "lib/xamarintvos/XamarinAdsLibrary.pdb",
+        "pausedads.1.0.65.nupkg.sha512",
         "pausedads.nuspec"
       ]
     },
@@ -1073,7 +1207,7 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "Octane.Xam.VideoPlayer >= 3.1.0",
-      "PausedAds >= 1.0.28",
+      "PausedAds >= 1.0.65",
       "Xamarin.Forms >= 5.0.0.2012",
       "XamarinPausedADSDemo >= 1.0.0"
     ]
@@ -1121,7 +1255,7 @@
           },
           "PausedAds": {
             "target": "Package",
-            "version": "[1.0.28, )"
+            "version": "[1.0.65, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

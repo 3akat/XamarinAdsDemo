@@ -1,0 +1,152 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "XamarinPausedADSDemo/1.0.0": {
+        "dependencies": {
+          "Octane.Xam.VideoPlayer": "3.1.0",
+          "PausedAds": "1.0.33",
+          "Xamarin.Forms": "5.0.0.2012",
+          "PausedAdsAndroidTV.Binding": "1.0.0.0",
+          "PausedAdsAndroidTV": "1.0.0.0"
+        },
+        "runtime": {
+          "XamarinPausedADSDemo.dll": {}
+        }
+      },
+      "jQuery/2.1.1": {},
+      "Newtonsoft.Json/12.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.2.23222"
+          }
+        }
+      },
+      "Octane.Xam.VideoPlayer/3.1.0": {
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Octane.Xamarin.Forms.VideoPlayer.dll": {
+            "assemblyVersion": "3.1.0.0",
+            "fileVersion": "3.1.0.0"
+          }
+        }
+      },
+      "PausedAds/1.0.33": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2",
+          "SampleDependency": "1.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/XamarinAdsLibrary.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SampleDependency/1.0.0": {
+        "dependencies": {
+          "jQuery": "2.1.1"
+        }
+      },
+      "Xamarin.Forms/5.0.0.2012": {
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "5.0.0.671"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "5.0.0.671"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "5.0.0.671"
+          }
+        }
+      },
+      "PausedAdsAndroidTV.Binding/1.0.0.0": {
+        "runtime": {
+          "PausedAdsAndroidTV.Binding.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "PausedAdsAndroidTV/1.0.0.0": {
+        "runtime": {
+          "PausedAdsAndroidTV.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "XamarinPausedADSDemo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "jQuery/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/cy0NGAGBx0W6XLqrnehQAKeJhfnZLDdPnBvlNLq/k4mraD1a7rbHBYzV5PYBaz9t5wh+VrGhPUbPztvnFAOrQ==",
+      "path": "jquery/2.1.1",
+      "hashPath": "jquery.2.1.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
+    },
+    "Octane.Xam.VideoPlayer/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JFjIeDBrmv1cX8B/N7vuaz2DM75hxufRbfPQVoVNkjp+j/9964lwcIyY6tfZwS3OW2INoPih6snjXG+PdlM6aw==",
+      "path": "octane.xam.videoplayer/3.1.0",
+      "hashPath": "octane.xam.videoplayer.3.1.0.nupkg.sha512"
+    },
+    "PausedAds/1.0.33": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tGUxc+3kW88ZP1jWLLfyYpvrPdUUrvJt+xnopnG7CV0Qcbw0XQwdpaziMxfMzxQIgKuptYvmrKr3z8dcaGekOA==",
+      "path": "pausedads/1.0.33",
+      "hashPath": "pausedads.1.0.33.nupkg.sha512"
+    },
+    "SampleDependency/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rkrKnTI2KT/L+BaaB6/xZbDiqyQ702TxYp5adqgC/GYU7KBufnNArz/5KNetThpOeXmVEMg0VlFU+9/cKz0L4w==",
+      "path": "sampledependency/1.0.0",
+      "hashPath": "sampledependency.1.0.0.nupkg.sha512"
+    },
+    "Xamarin.Forms/5.0.0.2012": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rqc6xvWR/sf+Db5+qRCFmuYTWVp04QWRfwPto2/JHbShSy4Ed53Q2jpoFzsoloXkJA6saD236PlaWAhT6vI4gw==",
+      "path": "xamarin.forms/5.0.0.2012",
+      "hashPath": "xamarin.forms.5.0.0.2012.nupkg.sha512"
+    },
+    "PausedAdsAndroidTV.Binding/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PausedAdsAndroidTV/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "+sg+XAmD2exViOo6oK4UxxEF1zT82nsZD5iL/h34Dr/Nq094rbu2YWMWEhoI5L6NH8Wuxst3FIgbKEF5OhPcoA==",
+  "dgSpecHash": "IY8OGZhmrBeMwLUHgIDhInMaHpXv/9LbRmCl3XWlad7bebKRyH76jpuvrJd/hSU9rcDkKXoyJtrvHCiiH0+jAQ==",
   "success": true,
   "projectFilePath": "/Users/alex/RiderProjects/XamarinPausedADSDemo/XamarinPausedADSDemo/XamarinPausedADSDemo/XamarinPausedADSDemo.csproj",
   "expectedPackageFiles": [
     "/Users/alex/.nuget/packages/jquery/2.1.1/jquery.2.1.1.nupkg.sha512",
     "/Users/alex/.nuget/packages/newtonsoft.json/12.0.2/newtonsoft.json.12.0.2.nupkg.sha512",
     "/Users/alex/.nuget/packages/octane.xam.videoplayer/3.1.0/octane.xam.videoplayer.3.1.0.nupkg.sha512",
-    "/Users/alex/.nuget/packages/pausedads/1.0.28/pausedads.1.0.28.nupkg.sha512",
+    "/Users/alex/.nuget/packages/pausedads/1.0.65/pausedads.1.0.65.nupkg.sha512",
     "/Users/alex/.nuget/packages/sampledependency/1.0.0/sampledependency.1.0.0.nupkg.sha512",
     "/Users/alex/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],
